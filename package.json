@@ -1,10 +1,11 @@
 {
   "name": "newbweb-es6recap",
-  "version": "1.0.0",
-  "description": "Minimal Babel-ready repo to be used with newBweb's ECMAScript 6 recap lectures.",
-  "main": "index.js",
+  "version": "0.1.1",
+  "description": "Minimal Babel+ESLint repo to be used with newBweb's ECMAScript 6 recap lectures.",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js"
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"No tests yet.\""
   },
   "keywords": [
     "newBweb",
@@ -12,6 +13,11 @@
     "ES6",
     "recap"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newBweb-code/newbweb-es6recap.git"
+  },
+  "homepage": "https://github.com/newBweb-code/newbweb-es6recap",
   "author": "newBweb <github@newbweb.com> (https://www.newbweb.com)",
   "license": "MIT",
   "devDependencies": {
