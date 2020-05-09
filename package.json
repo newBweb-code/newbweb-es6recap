@@ -1,0 +1,26 @@
+{
+  "name": "newbweb-es6recap",
+  "version": "1.0.0",
+  "description": "Minimal Babel-ready repo to be used with newBweb's ECMAScript 6 recap lectures.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "newBweb",
+    "ECMAScript 6",
+    "ES6",
+    "recap"
+  ],
+  "author": "newBweb <github@newbweb.com> (https://www.newbweb.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.3"
+  }
+}
