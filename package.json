@@ -1,6 +1,6 @@
 {
   "name": "newbweb-es6recap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal Babel+ESLint repo to be used with newBweb's ECMAScript 6 recap lectures.",
   "main": "src/index.js",
   "scripts": {
