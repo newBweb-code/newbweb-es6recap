@@ -4,14 +4,15 @@ Minimal Babel+ESLint repo to be used with newBweb's ECMAScript 6 recap lectures.
 
 ## Installation
 
-newbweb-es6recap is available as an [npm package](https://www.npmjs.com/package/newbweb-es6recap).
-
 ```sh
-// with npm
-npm install newbweb-es6recap
+git clone https://github.com/newBweb-code/newbweb-es6recap.git
+cd newbweb-es6recap
 
-// with yarn
-yarn add newbweb-es6recap
+// with npm
+npm install
+
+// or with yarn
+yarn install
 ```
 
 ## Usage
